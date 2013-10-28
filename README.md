@@ -43,21 +43,26 @@ Here are the actual project parts:
 Tools & Equipment
 -----------------
 
-| Manufacturer  | Part No.   | Details                      | Alternative | Quantity | Found | Status |
-|---------------|------------|------------------------------|-------------|----------|-------|--------|
-| B&K Precision | [DP 21]    | Logic Probe / 20 MHz - 30 Ns | N/A         | 1        | Yes   | -      |
-| Fluke         | [87-V]     | True RMS Digital Multimeter  | N/A         | 1        | Yes   | -      |
-|               |            | (Soldering Station)          | N/A         | 1        | No    | -      |
-|               |            | (Desolder Pump)              | N/A         | 1        | No    | -      |
-|               |            | (Solder)                     | N/A         | 1        | No    | -      |
-|               |            | (Breadboard)                 | N/A         | 1        | No    | -      |
-|               |            | (Power Transformer)          | N/A         | 1        | No    | -      |
-|               |            | (Safety Glasses)             | N/A         | 1        | No    | -      |
+| Manufacturer       | Part No.       | Details                      | Alternative | Quantity | Found | Status |
+|--------------------|----------------|------------------------------|-------------|----------|-------|--------|
+| B&K Precision      | [DP 21]        | Logic Probe / 20 MHz - 30 Ns | N/A         | 1        | Yes   | -      |
+| Fluke              | [87-V]         | True RMS Digital Multimeter  | N/A         | 1        | Yes   | -      |
+| Global Specialties | [PB-105T]      | Breadboard                   | N/A         | 1        | Yes   | -      |
+|                    |                | (Power Transformer)          | N/A         | 1        | No    | -      |
+|                    |                | (Soldering Station)          | N/A         | 1        | No    | -      |
+| Weller             | [7881]         | Desolder Pump                | N/A         | 1        | Yes   | -      |
+| Kester             | [24-6040-0027] | Solder / 60/40 - 0.79 mm     | N/A         | 1        | Yes   | -      |
+| ArcOne             | G-FLY-A1101    | Safety Goggles               | N/A         | 1        | Yes   | -      |
+| CadSoft            | [EAGLE]        | PCB Design Software          | N/A         | 1        | Yes   | -      |
 
 ***Note:*** *Any equivalent tool may be used. Tools listed here are the one I'll use for the project.*
 
-[DP 21]: http://ch.mouser.com/Search/ProductDetail.aspx?R=DP_21virtualkey61500000virtualkey615-DP-21
-[87-V]:  http://ch.mouser.com/ProductDetail/Fluke/FLUKE-87-V/?qs=sGAEpiMZZMuBVu7Wy0UTy5lFkCyOv5Wu
+[DP 21]:        https://ch.mouser.com/Search/ProductDetail.aspx?R=DP_21virtualkey61500000virtualkey615-DP-21
+[87-V]:         http://ch.mouser.com/ProductDetail/Fluke/FLUKE-87-V/?qs=sGAEpiMZZMuBVu7Wy0UTy5lFkCyOv5Wu
+[PB-105T]:      https://ch.mouser.com/Search/ProductDetail.aspx?R=PB-105Tvirtualkey51000000virtualkey510-PB-105T
+[7881]:         https://ch.mouser.com/Search/ProductDetail.aspx?R=7881virtualkey57800000virtualkey578-7881
+[24-6040-0027]: https://ch.mouser.com/Search/ProductDetail.aspx?R=24-6040-0027virtualkey53300000virtualkey533-24-6040-27
+[EAGLE]:        http://www.cadsoftusa.com/eagle-pcb-design-software/?language=en
 
 Hardware Parts - Power Supply
 -----------------------------
@@ -88,12 +93,11 @@ Hardware Parts - Power Supply
 
 ### Capacitors
 
-| Manufacturer | Part No.         | Details                                       | Alternative               | Quantity | Found | Status |
-|--------------|------------------|-----------------------------------------------|---------------------------|----------|-------|--------|
-| Sprague      | 53D113G025JP6    | Radial Aluminum Electrolytic / 15 V - 5300 uF | ???                       | 1        | No    | -      |
-| Sprague      | 53D382G050JL6    | Radial Aluminum Electrolytic / 25 V - 2400 uF | ???                       | 2        | No    | -      |
-| Vishay       | [MAL213826229E3] | Radial Aluminum Electrolytic / 25 V -   22 uF | Nichicon [TVX1E220MAD1LS] | 5        | Yes   | -      |
-
+| Manufacturer | Part No.         | Details                                       | Alternative                                         | Quantity | Found | Status |
+|--------------|------------------|-----------------------------------------------|-----------------------------------------------------|----------|-------|--------|
+| Sprague      | 53D113G025JP6    | Radial Aluminum Electrolytic / 15 V - 5300 uF | ???                                                 | 1        | Yes   | -      |
+| Sprague      | 53D382G050JL6    | Radial Aluminum Electrolytic / 25 V - 2400 uF | ???                                                 | 2        | Yes   | -      |
+| ???          | ???              | Radial Aluminum Electrolytic / 25 V -   22 uF | Vishay [MAL213826229E3] / Nichicon [TVX1E220MAD1LS] | 4        | Yes   | -      |
 
 [MAL213826229E3]: https://ch.mouser.com/Search/ProductDetail.aspx?R=MAL213826229E3virtualkey59420000virtualkey594-2222-138-26229
 [TVX1E220MAD1LS]: https://ch.mouser.com/Search/ProductDetail.aspx?R=TVX1E220MAD1LSvirtualkey64700000virtualkey647-TVX1E220MAD1LS
@@ -140,6 +144,12 @@ Hardware Parts - Power Supply
 Hardware Parts - Terminal Section
 ---------------------------------
 
+### Capacitors
+
+| Manufacturer | Part No.         | Details                                       | Alternative                                         | Quantity | Found | Status |
+|--------------|------------------|-----------------------------------------------|-----------------------------------------------------|----------|-------|--------|
+| ???          | ???              | Radial Aluminum Electrolytic / 25 V -   22 uF | Vishay [MAL213826229E3] / Nichicon [TVX1E220MAD1LS] | 1        | Yes   | -      |
+
 ### Crystal
 
 | Manufacturer | Part No.       | Details                | Alternative   | Quantity | Found | Status |
@@ -157,19 +167,19 @@ Hardware Parts - Processor Section
 
 | Manufacturer   | Part No. | Details | Alternative   | Quantity | Found | Status |
 |----------------|----------|---------|---------------|----------|-------|--------|
-| MOS Technology | 6502     |         | ???           | 1        | No    | -      |
+| MOS Technology | 6502     |         | ???           | 1        | Yes   | -      |
 
 ### Memory
 
 | Manufacturer | Part No. | Details | Alternative   | Quantity | Found | Status |
 |--------------|----------|---------|---------------|----------|-------|--------|
-| ???          | MK4096   |         | ???           | 16       | No    | -      |
+| ???          | MK4096   |         | ???           | 16       | Yes   | -      |
 
 ### PIA
 
 | Manufacturer | Part No. | Details                      | Alternative   | Quantity | Found | Status |
 |--------------|----------|------------------------------|---------------|----------|-------|--------|
-| Motorola     | MC6820CL | Peripheral Interface Adapter | ???           | 1        | Yes   | -      |
+| Motorola     | MC6820L  | Peripheral Interface Adapter | ???           | 1        | Yes   | -      |
 
 ### ...
 
