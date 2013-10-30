@@ -43,17 +43,17 @@ Here are the actual project parts:
 Tools & Equipment
 -----------------
 
-| Manufacturer       | Part No.       | Details                      | Alternative | Quantity | Found | Status |
-|--------------------|----------------|------------------------------|-------------|----------|-------|--------|
-| B&K Precision      | [DP 21]        | Logic Probe / 20 MHz - 30 Ns | N/A         | 1        | Yes   | -      |
-| Fluke              | [87-V]         | True RMS Digital Multimeter  | N/A         | 1        | Yes   | -      |
-| Global Specialties | [PB-105T]      | Breadboard                   | N/A         | 1        | Yes   | -      |
-|                    |                | (Power Transformer)          | N/A         | 1        | No    | -      |
-|                    |                | (Soldering Station)          | N/A         | 1        | No    | -      |
-| Weller             | [7881]         | Desolder Pump                | N/A         | 1        | Yes   | -      |
-| Kester             | [24-6040-0027] | Solder / 60/40 - 0.79 mm     | N/A         | 1        | Yes   | -      |
-| ArcOne             | G-FLY-A1101    | Safety Goggles               | N/A         | 1        | Yes   | -      |
-| CadSoft            | [EAGLE]        | PCB Design Software          | N/A         | 1        | Yes   | -      |
+| Manufacturer       | Part No.       | Details                           | Alternative | Quantity | Found | Status |
+|--------------------|----------------|-----------------------------------|-------------|----------|-------|--------|
+| B&K Precision      | [DP 21]        | Logic Probe / 20 MHz - 30 Ns      | N/A         | 1        | Yes   | -      |
+| Fluke              | [87-V]         | True RMS Digital Multimeter       | N/A         | 1        | Yes   | -      |
+| Global Specialties | [PB-105T]      | Breadboard                        | N/A         | 1        | Yes   | -      |
+| Power Bright       | VC500W         | 120 V / 220 V Voltage Transformer | N/A         | 1        | No    | -      |
+| Weller             | WECP-20        | Soldering Station                 | N/A         | 1        | No    | -      |
+| Weller             | [7881]         | Desolder Pump                     | N/A         | 1        | Yes   | -      |
+| Kester             | [24-6040-0027] | Solder / 60/40 - 0.79 mm          | N/A         | 1        | Yes   | -      |
+| ArcOne             | G-FLY-A1101    | Safety Goggles                    | N/A         | 1        | Yes   | -      |
+| CadSoft            | [EAGLE]        | PCB Design Software               | N/A         | 1        | Yes   | -      |
 
 ***Note:*** *Any equivalent tool may be used. Tools listed here are the one I'll use for the project.*
 
@@ -132,14 +132,14 @@ Hardware Parts - Power Supply
 
 ### Connectors
 
-| Manufacturer | Part No.      | Details               | Alternative   | Quantity | Found | Status |
-|--------------|---------------|-----------------------|---------------|----------|-------|--------|
-| Molex        | [171813-0006] | 6-Pin Power Connector | N/A           | 1        | Yes   | -      |
-| ???          | ???           | 4-Pin Video Connector | ???           | 1        | No    | -      |
-| ???          | ???           | 22-Pin Connector      | ???           | 1        | No    | -      |
-| ???          | ???           | B4 (Keyboard?)        | ???           | 1        | No    | -      |
+| Manufacturer | Part No.     | Details               | Alternative   | Quantity | Found | Status |
+|--------------|--------------|-----------------------|---------------|----------|-------|--------|
+| Molex        | [09-65-2068] | 6-Pin Power Connector | N/A           | 1        | Yes   | -      |
+| ???          | ???          | 4-Pin Video Connector | ???           | 1        | No    | -      |
+| ???          | ???          | 22-Pin Connector      | ???           | 1        | No    | -      |
+| ???          | ???          | B4 (Keyboard?)        | ???           | 1        | No    | -      |
 
-[171813-0006]: https://ch.mouser.com/Search/ProductDetail.aspx?R=171813-0006virtualkey53810000virtualkey538-171813-0006
+[09-65-2068]: https://ch.mouser.com/Search/ProductDetail.aspx?R=09-65-2068virtualkey53810000virtualkey538-09-65-2068
 
 Hardware Parts - Terminal Section
 ---------------------------------
@@ -158,7 +158,36 @@ Hardware Parts - Terminal Section
 
 [ECS-143-S-1X]: https://ch.mouser.com/Search/ProductDetail.aspx?R=ECS-143-S-1Xvirtualkey59070000virtualkey520-HCA1431-SX
 
-### ...
+### TTL
+
+| Manufacturer      | Part No. | Details                                                                                | Alternative | Quantity | Found | Status |
+|-------------------|----------|----------------------------------------------------------------------------------------|-------------|----------|-------|--------|
+| Texas Instruments | 7400     | Quadruple 2-Input NAND Gate                                                            | ???         | 3        | Yes   | -      |
+| Texas Instruments | 7402     | Quadruple 2-Input NOR Gate                                                             | ???         | 1        | Yes   | -      |
+| Texas Instruments | 7404     | Hex Inverter                                                                           | ???         | 2        | Yes   | -      |
+| Texas Instruments | 7408     | Quadruple 2-Input AND Gate                                                             | ???         | 1        | Yes   | -      |
+| Texas Instruments | 7410     | Triple 3-Input NAND Gate                                                               | ???         | 2        | Yes   | -      |
+| Texas Instruments | 7427     | Triple 3-Input NOR Gate                                                                | ???         | 1        | Yes   | -      |
+| Texas Instruments | 7432     | Quadruple 2-Input OR Gate                                                              | ???         | 1        | Yes   | -      |
+| Texas Instruments | 7450     | Dual 2-Wide 2-Input AND-OR-Invert Gate (One Gate Expandable)                           | ???         | 1        | Yes   | -      |
+| Texas Instruments | 74123    | Dual Retriggerable Monostable Multivibrator With Clear                                 | ???         | 1        | Yes   | -      |
+| Texas Instruments | 74157    | Quadruple 2-Line to 1-Line Data Selector/Multiplexer (Noninverting)                    | ???         | 2        | Yes   | -      |
+| Texas Instruments | 74160    | Synchronous 4-bit Decade Counter With Asynchronous Clear                               | ???         | 1        | Yes   | -      |
+| Texas Instruments | 74161    | Synchronous 4-bit Binary Counter With Asynchronous Clear                               | ???         | 5        | Yes   | -      |
+| Texas Instruments | 74166    | Parallel-Load 8-bit Shift Register                                                     | ???         | 1        | Yes   | -      |
+| Texas Instruments | 74174    | Hex D Flip-Flop With Common Clear                                                      | ???         | 1        | Yes   | -      |
+| Texas Instruments | 74175    | Quadruple D Edge-Triggered Flip-Flop With Complementary Outputs And Asynchronous Clear | ???         | 1        | Yes   | -      |
+
+### ICs
+
+| Manufacturer   | Part No.      | Details                                  | Alternative   | Quantity | Found | Status |
+|----------------|---------------|------------------------------------------|---------------|----------|-------|--------|
+| Signetics      | 2504          | Shift Register                           | ???           | 7        | Yes   | -      |
+| Signetics      | 2513 (CM2140) | Character Generator                      | ???           | 1        | Yes   | -      |
+| Signetics      | 2519          | Shift Register                           | ???           | 1        | Yes   | -      |
+| Signetics      | 8T97          | High Speed Hex 3-State Buffers/Inverters | ???           | 2        | Yes   | -      |
+| ???            | 555           | Timer                                    | ???           | 1        | Yes   | -      |
+| ???            | DS0025        | Dual Clock Driver                        | ???           | 1        | Yes   | -      |
 
 Hardware Parts - Processor Section
 ----------------------------------
@@ -169,19 +198,30 @@ Hardware Parts - Processor Section
 |----------------|----------|---------|---------------|----------|-------|--------|
 | MOS Technology | 6502     |         | ???           | 1        | Yes   | -      |
 
-### Memory
-
-| Manufacturer | Part No. | Details | Alternative   | Quantity | Found | Status |
-|--------------|----------|---------|---------------|----------|-------|--------|
-| ???          | MK4096   |         | ???           | 16       | Yes   | -      |
-
 ### PIA
 
 | Manufacturer | Part No. | Details                      | Alternative   | Quantity | Found | Status |
 |--------------|----------|------------------------------|---------------|----------|-------|--------|
 | Motorola     | MC6820L  | Peripheral Interface Adapter | ???           | 1        | Yes   | -      |
 
-### ...
+### Memory
+
+| Manufacturer | Part No. | Details | Alternative   | Quantity | Found | Status |
+|--------------|----------|---------|---------------|----------|-------|--------|
+| ???          | MK4096   | 4K RAM  | ???           | 16       | Yes   | -      |
+
+### ROM
+
+| Manufacturer | Part No. | Details      | Alternative                     | Quantity | Found | Status |
+|--------------|----------|--------------|---------------------------------|----------|-------|--------|
+| Intel        | 3601     | Bipolar PROM | Signetics 82S129 / Harris H1024 | 2        | Yes   | -      |
+
+### TTL
+
+| Manufacturer      | Part No. | Details                                              | Alternative | Quantity | Found | Status |
+|-------------------|----------|------------------------------------------------------|-------------|----------|-------|--------|
+| Texas Instruments | 74154    | 4-Line To 16-Line Decoder/Demultiplexer              | ???         | 1        | Yes   | -      |
+| Texas Instruments | 74S257   | Quadruple 2-Line Data Selector/Multiplexer (3-State) | ???         | 4        | Yes   | -      |
 
 Repository Infos
 ----------------
