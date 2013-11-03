@@ -12,6 +12,7 @@ Table Of Contents
    * [Heatsinks](#1-5)
    * [Fuses](#1-6)
    * [Connectors](#1-7)
+   * [Sockets](#1-8)
 2. [Hardware Parts - Terminal Section](#2)
    * [Capacitors](#2-1)
    * [Crystal](#2-2)
@@ -92,21 +93,28 @@ Hardware Parts - Power Supply
 <a name="1-5"></a>
 ### Fuses
 
-| Manufacturer | Part No.      | Details                                   | Alternative   | Quantity | Found | Status |
-|--------------|---------------|-------------------------------------------|---------------|----------|-------|--------|
-| Littelfuse   |               | Axial Glass / 3AG Slo-Blo / 125 V - 0.5 A | ???           | 1        | No    | -      |
+| Manufacturer | Part No. | Details                                     | Alternative   | Quantity | Found | Status |
+|--------------|----------|---------------------------------------------|---------------|----------|-------|--------|
+| Littelfuse   | 0312.500 | Axial Glass / 3AG Slow Blow / 125 V - 0.5 A | ???           | 1        | Yes   | -      |
 
 <a name="1-6"></a>
 ### Connectors
 
-| Manufacturer | Part No.     | Details               | Alternative   | Quantity | Found | Status |
-|--------------|--------------|-----------------------|---------------|----------|-------|--------|
-| Molex        | [09-65-2068] | 6-Pin Power Connector | N/A           | 1        | Yes   | -      |
-| Molex        | ???          | 4-Pin Video Connector | ???           | 1        | No    | -      |
-| ???          | ???          | 44-Pin Edge Connector | ???           | 1        | No    | -      |
-| ???          | ???          | B4 (Keyboard?)        | ???           | 1        | No    | -      |
+| Manufacturer | Part No.     | Details                 | Alternative | Quantity | Found | Status |
+|--------------|--------------|-------------------------|-------------|----------|-------|--------|
+| Molex        | [09-50-1041] | 6-Pin Connector / Power | N/A         | 1        | Yes   | -      |
+| Molex        | [09-50-1061] | 4-Pin Connector / Video | N/A         | 1        | Yes   | -      |
+| Cinch        | 50-44S-30-1  | 44-Pin Connector / Edge | ???         | 1        | No    | -      |
 
-[09-65-2068]: https://ch.mouser.com/Search/ProductDetail.aspx?R=09-65-2068virtualkey53810000virtualkey538-09-65-2068
+[09-50-1061]: https://ch.mouser.com/Search/ProductDetail.aspx?R=09-50-1061virtualkey53810000virtualkey538-09-50-1061
+[09-50-1041]: https://ch.mouser.com/Search/ProductDetail.aspx?R=09-50-1041virtualkey53810000virtualkey538-09-50-1041
+
+<a name="1-7"></a>
+### Sockets
+
+| Manufacturer | Part No. | Details                                 | Alternative | Quantity | Found | Status |
+|--------------|----------|-----------------------------------------|-------------|----------|-------|--------|
+| ???          | ???      | 8-Pin DIP Socket / Wire Wrap / Keyboard | N/A         | 1        | Yes   | -      |
 
 <a name="2"></a>
 Hardware Parts - Terminal Section
