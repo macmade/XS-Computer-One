@@ -70,12 +70,12 @@ Documentation
 -------------
 
 I'm using the original schematics and original Apple-1 photos in order to identify the components and build the PCB.  
-The original [**Apple-1 Operation Manual**](Documentation/Apple-1 Operation Manual.pdf) is included in the repository.
+The original [**Apple-1 Operation Manual**](https://github.com/macmade/XS-Computer-One/blob/master/Documentation/Apple-1%20Operation%20Manual.pdf?raw=true) is included in the repository.
 
 Bill Of Materials
 -----------------
 
-The complete list of the Apple-1 components can be found in the [BOM.txt](BOM.txt) file.
+The complete list of the Apple-1 components can be found in the [BOM.md](https://github.com/macmade/XS-Computer-One/blob/master/BOM.md) file.
 
 When the components are still available for purchase, links are provided ([Mouser Electronics](http://www.mouser.com/)).  
 For vintage components, valid alternatives may be provided. In such a case, I try to find components that look the same as the original.
