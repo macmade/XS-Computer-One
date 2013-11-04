@@ -77,28 +77,41 @@ Table Of Contents
 | Sprague      | 53D113G025JP6    | Axial  / Aluminum Electrolytic / 15 V - 5300 uF | ???                                                 | 1        | Yes   | -      |
 | Sprague      | 53D382G050JL6    | Axial  / Aluminum Electrolytic / 25 V - 2400 uF | ???                                                 | 2        | Yes   | -      |
 | ???          | ???              | Axial  / Aluminum Electrolytic / 25 V -   22 uF | Vishay [MAL213826229E3] / Nichicon [TVX1E220MAD1LS] | 5        | Yes   | -      |
-| ???          | ???              | Radial / Mica / 47pf                            | ???                                                 | 1        | No    | -      |
-| ???          | ???              | Radial / Ceramic Disc / 0.001 uF                | ???                                                 | 1        | No    | -      |
-| ???          | ???              | Radial / Ceramic Disc / 0.01  uF                | ???                                                 | 4        | No    | -      |
-| ???          | ???              | Radial / Ceramic Disc / 1.0   uF                | ???                                                 | 17       | No    | -      |
+| ???          | ???              | Radial / Mica / 47pf                            | Cornell Dubilier [CD10ED470JO3-F]                   | 1        | Yes   | -      |
+| ???          | ???              | Radial / Ceramic Disc / 0.001 uF                | Vishay [440LD10-R]                                  | 1        | Yes   | -      |
+| ???          | ???              | Radial / Ceramic Disc / 0.01  uF                | Vishay [440LS10-R]                                  | 4        | Yes   | -      |
+| ???          | ???              | Radial / Ceramic Disc / 1.0   uF                | Vishay [S104Z93Z5VL83L0R]                           | 17       | Yes   | -      |
 
-[MAL213826229E3]: https://ch.mouser.com/Search/ProductDetail.aspx?R=MAL213826229E3virtualkey59420000virtualkey594-2222-138-26229
-[TVX1E220MAD1LS]: https://ch.mouser.com/Search/ProductDetail.aspx?R=TVX1E220MAD1LSvirtualkey64700000virtualkey647-TVX1E220MAD1LS
+[MAL213826229E3]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=MAL213826229E3virtualkey59420000virtualkey594-2222-138-26229
+[TVX1E220MAD1LS]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=TVX1E220MAD1LSvirtualkey64700000virtualkey647-TVX1E220MAD1LS
+[CD10ED470JO3-F]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=CD10ED470JO3-Fvirtualkey59850000virtualkey5982-10-500V47F
+[440LD10-R]:        https://ch.mouser.com/Search/ProductDetail.aspx?R=440LD10-Rvirtualkey59480000virtualkey75-440LD10-R
+[440LS10-R]:        https://ch.mouser.com/Search/ProductDetail.aspx?R=440LS10-Rvirtualkey59480000virtualkey75-440LS10-R
+[S104Z93Z5VL83L0R]: https://ch.mouser.com/Search/ProductDetail.aspx?R=S104Z93Z5VL83L0Rvirtualkey59420000virtualkey594-S104Z93Z5VL83L0R
 
 <a name="5"></a>
 5 - Resistors
 -------------
 
-| Manufacturer | Part No. | Details                           | Alternative | Quantity | Found | Status |
-|--------------|----------|-----------------------------------|-------------|----------|-------|--------|
-| ???          | ???      | Axial / 330   Ohms / 1/4 W        | ???         | 1        | No    | -      |
-| ???          | ???      | Axial / 390   Ohms / 1/4 W        | ???         | 2        | No    | -      |
-| ???          | ???      | Axial / 1.5k  Ohms / 1/4 W        | ???         | 1        | No    | -      |
-| ???          | ???      | Axial / 3.0k  Ohms / 1/4 W        | ???         | 12       | No    | -      |
-| ???          | ???      | Axial / 7.5k  Ohms / 1/4 W        | ???         | 6        | No    | -      |
-| ???          | ???      | Axial / 10.0k Ohms / 1/4 W        | ???         | 3        | No    | -      |
-| ???          | ???      | Axial / 27k   Ohms / 1/4 W        | ???         | 1        | No    | -      |
-| ???          | ???      | Adjustable Single Turn / 100 Ohms | ???         | 1        | No    | -      |
+| Manufacturer | Part No. | Details                           | Alternative                | Quantity | Found | Status |
+|--------------|----------|-----------------------------------|----------------------------|----------|-------|--------|
+| ???          | ???      | Axial / 330   Ohms / 1/4 W        | Ohmite [OD331JE]           | 1        | Yes   | -      |
+| ???          | ???      | Axial / 390   Ohms / 1/4 W        | Ohmite [OD391JE]           | 2        | Yes   | -      |
+| ???          | ???      | Axial / 1.5k  Ohms / 1/4 W        | Ohmite [OD152JE]           | 1        | Yes   | -      |
+| ???          | ???      | Axial / 3.0k  Ohms / 1/4 W        | Ohmite [OD302JE]           | 12       | Yes   | -      |
+| ???          | ???      | Axial / 7.5k  Ohms / 1/4 W        | Ohmite [OD752JE]           | 6        | Yes   | -      |
+| ???          | ???      | Axial / 10.0k Ohms / 1/4 W        | Ohmite [OD103JE]           | 3        | Yes   | -      |
+| ???          | ???      | Axial / 27k   Ohms / 1/4 W        | Ohmite [OD273JE]           | 1        | Yes   | -      |
+| ???          | ???      | Adjustable Single Turn / 100 Ohms | TT electronics [82PR100LF] | 1        | Yes   | -      |
+
+[OD331JE]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=OD331JEvirtualkey58810000virtualkey588-OD331JE
+[OD391JE]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=OD391JEvirtualkey58810000virtualkey588-OD391JE
+[OD152JE]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=OD152JEvirtualkey58810000virtualkey588-OD152JE
+[OD302JE]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=OD302JEvirtualkey58810000virtualkey588-OD302JE
+[OD752JE]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=OD752JEvirtualkey58810000virtualkey588-OD752JE
+[OD103JE]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=OD103JEvirtualkey58810000virtualkey588-OD103JE
+[OD273JE]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=OD273JEvirtualkey58810000virtualkey588-OD273JE
+[82PR100LF]: https://ch.mouser.com/Search/ProductDetail.aspx?R=82PR100LFvirtualkey57700000virtualkey858-82PR100LF
 
 <a name="6"></a>
 6 - Processor
@@ -193,9 +206,13 @@ Table Of Contents
 14 - Sockets
 ------------
 
-| Manufacturer | Part No. | Details                                 | Alternative | Quantity | Found | Status |
-|--------------|----------|-----------------------------------------|-------------|----------|-------|--------|
-| ???          | ???      | 8-Pin DIP Socket / Wire Wrap / Keyboard | N/A         | 1        | Yes   | -      |
+| Manufacturer | Part No. | Details                                  | Alternative | Quantity | Found | Status |
+|--------------|----------|------------------------------------------|-------------|----------|-------|--------|
+| ???          | ???      | 8-Pin  DIP Socket / Wire Wrap / Keyboard | N/A         | 1        | Yes   | -      |
+| ???          | ???      | 14-Pin DIP Socket / Wire Wrap / Keyboard | N/A         | 12       | Yes   | -      |
+| ???          | ???      | 16-Pin DIP Socket / Wire Wrap / Keyboard | N/A         | 42       | Yes   | -      |
+| ???          | ???      | 24-Pin DIP Socket / Wire Wrap / Keyboard | N/A         | 2        | Yes   | -      |
+| ???          | ???      | 40-Pin DIP Socket / Wire Wrap / Keyboard | N/A         | 2        | Yes   | -      |
 
 <a name="15"></a>
 15 - Heatsinks
