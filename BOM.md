@@ -45,9 +45,9 @@ Table Of Contents
 | Manufacturer           | Part No.         | Details                  | Alternative                        | Quantity | Found | Status |
 |------------------------|------------------|--------------------------|------------------------------------|----------|-------|--------|
 | STMicroelectronics     | [LM323K]         | +15 V /  +5 V - 3.0 A    | N/A                                | 1        | Yes   | -      |
-| National Semiconductor | LM320 MP-5       | -15 V /  -5 V - 1.0 A    | Fairchild Semiconductor [LM7905CT] | 1        | Yes   | -      |
-| National Semiconductor | LM320 MP-12      | -25 V / -12 V - 1.0 A    | Fairchild Semiconductor [LM7912CT] | 1        | Yes   | -      |
-| National Semiconductor | LM340-12         | +25 V / +12 V - 1.0 A    | Fairchild Semiconductor [LM7812CT] | 1        | Yes   | -      |
+| National Semiconductor | LM320 MP-5       | -15 V /  -5 V - 1.0 A    | Fairchild Semiconductor [LM7905CT] | 1        | Yes   | OK     |
+| National Semiconductor | LM320 MP-12      | -25 V / -12 V - 1.0 A    | Fairchild Semiconductor [LM7912CT] | 1        | Yes   | OK     |
+| National Semiconductor | LM340-12         | +25 V / +12 V - 1.0 A    | Fairchild Semiconductor [LM7812CT] | 1        | Yes   | OK     |
 
 [LM323K]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=LM323Kvirtualkey51120000virtualkey511-LM323K
 [LM7905CT]: https://ch.mouser.com/Search/ProductDetail.aspx?R=LM7905CTvirtualkey51210000virtualkey512-LM7905CT
@@ -60,9 +60,9 @@ Table Of Contents
 
 | Manufacturer            | Part No. | Details              | Alternative           | Quantity | Found | Status |
 |-------------------------|----------|----------------------|-----------------------|----------|-------|--------|
-| ???                     | MR500    | 50 V / 3.0 A / DO-27 | Vishay [UF5400-E3/54] | 4        | Yes   | -      |
-| Fairchild Semiconductor | [1N4001] | 50 V / 1.0 A / DO-41 | N/A                   | 4        | Yes   | -      |
-| Fairchild Semiconductor | [1N914]  |        0.3 A / DO-35 | N/A                   | 4        | Yes   | -      |
+| ???                     | MR500    | 50 V / 3.0 A / DO-27 | Vishay [UF5400-E3/54] | 4        | Yes   | OK     |
+| Fairchild Semiconductor | [1N4001] | 50 V / 1.0 A / DO-41 | N/A                   | 4        | Yes   | OK     |
+| Fairchild Semiconductor | [1N914]  |        0.3 A / DO-35 | N/A                   | 4        | Yes   | OK     |
 
 [UF5400-E3/54]: https://ch.mouser.com/Search/ProductDetail.aspx?R=UF5400-E3%2f54virtualkey61370000virtualkey625-UF5400-E3
 [1N4001]:       https://ch.mouser.com/Search/ProductDetail.aspx?R=1N4001virtualkey51210000virtualkey512-1N4001
@@ -76,11 +76,11 @@ Table Of Contents
 |--------------|------------------|-------------------------------------------------|-----------------------------------------------------|----------|-------|--------|
 | Sprague      | 53D113G025JP6    | Axial  / Aluminum Electrolytic / 15 V - 5300 uF | ???                                                 | 1        | Yes   | -      |
 | Sprague      | 53D382G050JL6    | Axial  / Aluminum Electrolytic / 25 V - 2400 uF | ???                                                 | 2        | Yes   | -      |
-| ???          | ???              | Axial  / Aluminum Electrolytic / 25 V -   22 uF | Vishay [MAL213826229E3] / Nichicon [TVX1E220MAD1LS] | 5        | Yes   | -      |
-| ???          | ???              | Radial / Mica / 47pf                            | Cornell Dubilier [CD10ED470JO3-F]                   | 1        | Yes   | -      |
-| ???          | ???              | Radial / Ceramic Disc / 0.001 uF                | Vishay [440LD10-R]                                  | 1        | Yes   | -      |
-| ???          | ???              | Radial / Ceramic Disc / 0.01  uF                | Vishay [440LS10-R]                                  | 4        | Yes   | -      |
-| ???          | ???              | Radial / Ceramic Disc / 1.0   uF                | Vishay [S104Z93Z5VL83L0R]                           | 17       | Yes   | -      |
+| ???          | ???              | Axial  / Aluminum Electrolytic / 25 V -   22 uF | Vishay [MAL213826229E3] / Nichicon [TVX1E220MAD1LS] | 5        | Yes   | OK     |
+| ???          | ???              | Radial / Mica / 47pf                            | Cornell Dubilier [CD10ED470JO3-F]                   | 1        | Yes   | OK     |
+| ???          | ???              | Radial / Ceramic Disc / 0.001 uF                | Vishay [440LD10-R]                                  | 1        | Yes   | OK     |
+| ???          | ???              | Radial / Ceramic Disc / 0.01  uF                | Vishay [440LS10-R]                                  | 4        | Yes   | OK     |
+| ???          | ???              | Radial / Ceramic Disc / 1.0   uF                | Vishay [S104Z93Z5VL83L0R]                           | 17       | Yes   | OK     |
 
 [MAL213826229E3]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=MAL213826229E3virtualkey59420000virtualkey594-2222-138-26229
 [TVX1E220MAD1LS]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=TVX1E220MAD1LSvirtualkey64700000virtualkey647-TVX1E220MAD1LS
@@ -95,14 +95,14 @@ Table Of Contents
 
 | Manufacturer | Part No. | Details                           | Alternative                | Quantity | Found | Status |
 |--------------|----------|-----------------------------------|----------------------------|----------|-------|--------|
-| ???          | ???      | Axial / 330   Ohms / 1/4 W        | Ohmite [OD331JE]           | 1        | Yes   | -      |
-| ???          | ???      | Axial / 390   Ohms / 1/4 W        | Ohmite [OD391JE]           | 2        | Yes   | -      |
-| ???          | ???      | Axial / 1.5k  Ohms / 1/4 W        | Ohmite [OD152JE]           | 1        | Yes   | -      |
-| ???          | ???      | Axial / 3.0k  Ohms / 1/4 W        | Ohmite [OD302JE]           | 12       | Yes   | -      |
-| ???          | ???      | Axial / 7.5k  Ohms / 1/4 W        | Ohmite [OD752JE]           | 6        | Yes   | -      |
+| ???          | ???      | Axial / 330   Ohms / 1/4 W        | Ohmite [OD331JE]           | 1        | Yes   | OK     |
+| ???          | ???      | Axial / 390   Ohms / 1/4 W        | Ohmite [OD391JE]           | 2        | Yes   | OK     |
+| ???          | ???      | Axial / 1.5k  Ohms / 1/4 W        | Ohmite [OD152JE]           | 1        | Yes   | OK     |
+| ???          | ???      | Axial / 3.0k  Ohms / 1/4 W        | Ohmite [OD302JE]           | 12       | Yes   | OK     |
+| ???          | ???      | Axial / 7.5k  Ohms / 1/4 W        | Ohmite [OD752JE]           | 6        | Yes   | OK     |
 | ???          | ???      | Axial / 10.0k Ohms / 1/4 W        | Ohmite [OD103JE]           | 3        | Yes   | -      |
-| ???          | ???      | Axial / 27k   Ohms / 1/4 W        | Ohmite [OD273JE]           | 1        | Yes   | -      |
-| ???          | ???      | Adjustable Single Turn / 100 Ohms | TT electronics [82PR100LF] | 1        | Yes   | -      |
+| ???          | ???      | Axial / 27k   Ohms / 1/4 W        | Ohmite [OD273JE]           | 1        | Yes   | OK     |
+| ???          | ???      | Adjustable Single Turn / 100 Ohms | TT electronics [82PR100LF] | 1        | Yes   | OK     |
 
 [OD331JE]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=OD331JEvirtualkey58810000virtualkey588-OD331JE
 [OD391JE]:   https://ch.mouser.com/Search/ProductDetail.aspx?R=OD391JEvirtualkey58810000virtualkey588-OD391JE
@@ -188,7 +188,7 @@ Table Of Contents
 
 | Manufacturer | Part No. | Details                        | Alternative                     | Quantity | Found | Status |
 |--------------|----------|--------------------------------|---------------------------------|----------|-------|--------|
-| ???          | ???      | NPN Bipolar Transistor / TO-92 | Central Semiconductor [MPS3704] | 1        | Yes   | -      |
+| ???          | ???      | NPN Bipolar Transistor / TO-92 | Central Semiconductor [MPS3704] | 1        | Yes   | OK     |
 
 [MPS3704]: https://ch.mouser.com/Search/ProductDetail.aspx?R=MPS3704virtualkey61000000virtualkey610-MPS3704
 
@@ -206,13 +206,13 @@ Table Of Contents
 14 - Sockets
 ------------
 
-| Manufacturer | Part No. | Details                                  | Alternative | Quantity | Found | Status |
-|--------------|----------|------------------------------------------|-------------|----------|-------|--------|
-| ???          | ???      | 8-Pin  DIP Socket / Wire Wrap / Keyboard | N/A         | 1        | Yes   | -      |
-| ???          | ???      | 14-Pin DIP Socket / Wire Wrap / Keyboard | N/A         | 12       | Yes   | -      |
-| ???          | ???      | 16-Pin DIP Socket / Wire Wrap / Keyboard | N/A         | 42       | Yes   | -      |
-| ???          | ???      | 24-Pin DIP Socket / Wire Wrap / Keyboard | N/A         | 2        | Yes   | -      |
-| ???          | ???      | 40-Pin DIP Socket / Wire Wrap / Keyboard | N/A         | 2        | Yes   | -      |
+| Manufacturer | Part No. | Details                       | Alternative | Quantity | Found | Status |
+|--------------|----------|-------------------------------|-------------|----------|-------|--------|
+| ???          | ???      | 8-Pin  DIP Socket / Wire Wrap | N/A         | 1        | Yes   | -      |
+| ???          | ???      | 14-Pin DIP Socket / Wire Wrap | N/A         | 12       | Yes   | -      |
+| ???          | ???      | 16-Pin DIP Socket / Wire Wrap | N/A         | 42       | Yes   | -      |
+| ???          | ???      | 24-Pin DIP Socket / Wire Wrap | N/A         | 2        | Yes   | -      |
+| ???          | ???      | 40-Pin DIP Socket / Wire Wrap | N/A         | 2        | Yes   | -      |
 
 <a name="15"></a>
 15 - Heatsinks
@@ -220,7 +220,7 @@ Table Of Contents
 
 | Manufacturer | Part No.   | Details | Alternative   | Quantity | Found | Status |
 |--------------|------------|---------|---------------|----------|-------|--------|
-| Wakefield    | [680-125A] | 1.5 C/W | N/A           | 1        | Yes   | -      |
+| Wakefield    | [680-125A] | 1.5 C/W | N/A           | 1        | Yes   | OK     |
 
 [680-125A]: https://ch.mouser.com/Search/ProductDetail.aspx?R=680-125Avirtualkey56720000virtualkey567-680-125A
 
@@ -236,14 +236,15 @@ Table Of Contents
 17 - Connectors
 ---------------
 
-| Manufacturer | Part No.     | Details                 | Alternative | Quantity | Found | Status |
-|--------------|--------------|-------------------------|-------------|----------|-------|--------|
-| Molex        | [09-50-1041] | 6-Pin Connector / Power | N/A         | 1        | Yes   | -      |
-| Molex        | [09-50-1061] | 4-Pin Connector / Video | N/A         | 1        | Yes   | -      |
-| Cinch        | 50-44S-30-1  | 44-Pin Connector / Edge | ???         | 1        | No    | -      |
+| Manufacturer | Part No. | Details                 | Alternative            | Quantity | Found | Status |
+|--------------|----------|-------------------------|------------------------|----------|-------|--------|
+| Molex        | ???      | 6-Pin Connector / Power | Molex [09-50-1041]     | 1        | Yes   | OK     |
+| Molex        | ???      | 4-Pin Connector / Video | Molex [09-50-1061]     | 1        | Yes   | OK     |
+| Cinch        | ???      | 44-Pin Connector / Edge | EDAC [305-044-555-201] | 1        | No    | OK     |
 
-[09-50-1061]: https://ch.mouser.com/Search/ProductDetail.aspx?R=09-50-1061virtualkey53810000virtualkey538-09-50-1061
-[09-50-1041]: https://ch.mouser.com/Search/ProductDetail.aspx?R=09-50-1041virtualkey53810000virtualkey538-09-50-1041
+[09-50-1061]:      https://ch.mouser.com/Search/ProductDetail.aspx?R=09-50-1061virtualkey53810000virtualkey538-09-50-1061
+[09-50-1041]:      https://ch.mouser.com/Search/ProductDetail.aspx?R=09-50-1041virtualkey53810000virtualkey538-09-50-1041
+[305-044-555-201]: https://ch.mouser.com/Search/ProductDetail.aspx?R=305-044-555-201virtualkey58720000virtualkey587-305-044-555-201
 
 <a name="18"></a>
 18 - Switches
@@ -251,7 +252,7 @@ Table Of Contents
 
 | Manufacturer         | Part No. | Details       | Alternative                           | Quantity | Found | Status |
 |----------------------|----------|---------------|---------------------------------------|----------|-------|--------|
-| Carling Technologies | ???      | On/Off Switch | Carling Technologies [62116919-0-9-V] | 1        | Yes   | -      |
+| Carling Technologies | ???      | On/Off Switch | Carling Technologies [62116919-0-9-V] | 1        | Yes   | OK     |
 
 [62116919-0-9-V]: https://ch.mouser.com/Search/ProductDetail.aspx?R=62116919-0-9-Vvirtualkey69100000virtualkey691-62116919-0-9-V
 
