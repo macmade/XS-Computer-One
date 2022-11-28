@@ -236,15 +236,16 @@ Table Of Contents
 17 - Connectors
 ---------------
 
-| Manufacturer | Part No. | Details                 | Alternative            | Quantity | Found | Status |
-|--------------|----------|-------------------------|------------------------|----------|-------|--------|
-| Molex        | ???      | 6-Pin Connector / Power | Molex [09-50-1041]     | 1        | Yes   | OK     |
-| Molex        | ???      | 4-Pin Connector / Video | Molex [09-50-1061]     | 1        | Yes   | OK     |
-| Cinch        | ???      | 44-Pin Connector / Edge | EDAC [305-044-555-201] | 1        | No    | OK     |
+| Manufacturer | Part No. | Details                 | Alternative                                     | Quantity | Found | Status |
+|--------------|----------|-------------------------|-------------------------------------------------|----------|-------|--------|
+| Molex        | ???      | 6-Pin Connector / Power | Molex [09-50-1041]                              | 1        | Yes   | OK     |
+| Molex        | ???      | 4-Pin Connector / Video | Molex [09-50-1061]                              | 1        | Yes   | OK     |
+| Cinch        | ???      | 44-Pin Connector / Edge | EDAC [315-044-520-201] / EDAC [315-044-521-201] | 1        | No    | OK     |
 
 [09-50-1061]:      https://ch.mouser.com/Search/ProductDetail.aspx?R=09-50-1061virtualkey53810000virtualkey538-09-50-1061
 [09-50-1041]:      https://ch.mouser.com/Search/ProductDetail.aspx?R=09-50-1041virtualkey53810000virtualkey538-09-50-1041
-[305-044-555-201]: https://ch.mouser.com/Search/ProductDetail.aspx?R=305-044-555-201virtualkey58720000virtualkey587-305-044-555-201
+[315-044-520-201]: https://www.mouser.ch/ProductDetail/EDAC/315-044-520-201?qs=XeJtXLiO41Te8zrhZVejvQ%3D%3D
+[315-044-521-201]: https://www.mouser.ch/ProductDetail/EDAC/315-044-521-201?qs=X9HCC1dc6JvhVy05Evp2RA%3D%3D
 
 <a name="18"></a>
 18 - Switches
